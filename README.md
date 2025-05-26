@@ -40,3 +40,8 @@ npm install
 npm run dev
 
 La applicacion se debe ver en el puerto default localhost:3000
+
+
+## 🚀 Deploy en vercel
+
+https://act-des-rap.vercel.app/
