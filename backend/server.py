@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/messages', methods=['GET'])
 def get_messages():
+    messages = supabase.table('mensajes').select('*').execute()
     return jsonify(messages)
 
 
